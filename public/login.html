@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Session Express</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body class="container">
+        <div class=" row ">
+            <div class="col-md-4"></div>
+            <div class="jumbotron col-sm-4 pull-center" style="margin-top:100px">
+                <form action="/login" method="post">
+                    <table class="table">
+                        <tr>
+                            <td><label>Username</label></td>
+                            <td><label for="">:</label></td>
+                            <td>
+                                <input class="form-control" type="text" name="username"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Password:</label></td>
+                            <td><label for="">:</label></td>
+                            <td>
+                                <div><input class="form-control" type="password" name="password"/></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"> <input class="btn btn-primary pull-right" type="submit" value="Log In"/></td>
+                        </tr>
+                    </table>
+                    <div>
+                        
+                    </div>
+                </form>                  
+            </div>          
+        </div>
+    </body>
+</html>
