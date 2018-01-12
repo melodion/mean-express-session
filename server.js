@@ -52,7 +52,7 @@ app.route('/login')
             password = req.body.password;
             console.log("Usernama : "+username);
             console.log("Password : "+password);
-            if (username =='admin' && password =='123') {
+            if (username =='alun.itn@gmail.com' && password =='123') {
                 req.session.username = username;
                 res.redirect('/dashboard');
             }else{
